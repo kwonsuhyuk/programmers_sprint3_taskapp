@@ -6,7 +6,7 @@ import { listButton, taskButton } from "./ActionButton.css";
 type TActionButtonProps = {
   boardId: string;
   listId: string;
-  list: boolean;
+  list?: boolean;
 };
 
 const ActionButton: FC<TActionButtonProps> = ({ boardId, listId, list }) => {
